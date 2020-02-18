@@ -1,0 +1,22 @@
+{
+    "name": "ostap/test-project",
+    "authors": [
+        {
+            "name": "Ostap",
+            "email": "ostapchernetsky@gmail.com"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Classes\\": "Classes/",
+            "App\\Interfaces\\": "Interfaces/",
+            "App\\Helpers\\": "Helpers/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}
